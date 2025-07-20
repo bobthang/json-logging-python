@@ -3,12 +3,8 @@ import sys
 
 from setuptools import setup, find_packages
 
-version_info_major = sys.version_info[0]
-if version_info_major == 3:
-    long_description = open('README.rst', encoding="utf8").read()
-else:
-    io_open = open('README.rst', encoding="utf8")
-    long_description = io_open.read()
+with open('README.rst', encoding="utf8") as f:
+    long_description = f.read()
 
 setup(
     name="json-logging",
