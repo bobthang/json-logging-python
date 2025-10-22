@@ -1,4 +1,4 @@
-# LOOKING FOR A MAINTAINER
+# LOOKING FOR MAINTAINERS
 due to my current work commitments, I am unable to maintain this project. If you are interested in taking over the maintenance of this project, please feel free to open a pull request or contact me directly. I would be happy to transfer the ownership of this project to you.
 
 # json-logging
